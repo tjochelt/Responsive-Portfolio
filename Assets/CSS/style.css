@@ -140,6 +140,7 @@ img {
         form {
             width: 90%;
         }
+    
      
           @media screen and (max-width: 640px) {
        
@@ -159,8 +160,12 @@ img {
                 width: 90%;
             }
 
-            
+        
             li {
-                background-color: #999;
                 color: black;
+                display: block;
             }
+            nav ul {
+                margin-right: 0;
+            }
+         
